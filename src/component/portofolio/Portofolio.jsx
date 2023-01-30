@@ -1,6 +1,6 @@
 import React from 'react'
 import './portofolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
+import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
@@ -12,44 +12,38 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
+    title: 'Data Collect for Dataset Face Recognition',
+    github: 'https://github.com/46-45/data_collect'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'NFT Marketplace Mobile App',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/17733146-NFT-Marketplace-Mobile-App'
+    title: 'E-Commerce Website',
+    github: 'https://github.com/46-45/online_shop'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Digital Agency Mobile Responsive',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/17735013-Digital-Agency-Mobile-Responsive'
+    title: '-',
+    github: 'https://github.com'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Minimum Lovable Product for a remote access software',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/17734926-Minimum-Lovable-Product-for-a-remote-access-software'
+    title: '-',
+    github: 'https://github.com'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'NFTMAN - NFT Auction Mobile App',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/17732346-NFTMAN-NFT-Auction-Mobile-App'
+    title: '-',
+    github: 'https://github.com'
   },
   {
     id: 6,
     image: IMG6,
-    title: 'Financial Landing Page',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/17732660-FinKT-Financial-Landing-Page'
+    title: '-',
+    github: 'https://github.com'
   }
 ]
 
@@ -67,10 +61,9 @@ const Portofolio = () => {
           <div className="portfolio__item-image">
             <img src={image} alt={title}/>
           </div>
-          <h3>Masih Kosong </h3>
+          <h3>{title} </h3>
           <div className="portfolio__item-cta">
           <a href= {github} className='btn' target='_blank'>Github</a>
-          <a href= {demo} className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
             )

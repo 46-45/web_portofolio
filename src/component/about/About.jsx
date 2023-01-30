@@ -35,7 +35,7 @@ const About = () => {
             <article className='about__card'>
               <AiOutlineFolderOpen className='about__icon'/>
               <h5>Projects</h5>
-              <small>Mobile Legends GB Service</small>
+              <small>Last Project 1, Last Project 2 and Final Project</small>
             </article>
           </div>
 
