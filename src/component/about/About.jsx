@@ -22,14 +22,14 @@ const About = () => {
           <div className="about__cards">
             <article className='about__card'>
               <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>Ex Glory 2k</small>
+              <h5>Role</h5>
+              <small>Website and Android Developer</small>
             </article>
 
             <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
-              <small>Parsaoran Simanjuntak Big Family </small>
+              <small>Everyone who needs help</small>
             </article>
 
             <article className='about__card'>
@@ -40,7 +40,10 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus qui iusto sequi debitis dolorem voluptatem nesciunt dolore totam inventore dolores perferendis quaerat vero ab aperiam non vitae ratione, deserunt labore!
+          My name is Daniel Silalahi. I am a final year student majoring in informatics engineering.
+Passionate about softwaredevelopment. Has knowledge of competitive programming and loves
+algorithms, can learn new things quickly, and enjoys learningnewthings about technology. Have
+good interpersonal communication and comfortable working in a teamor individually
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

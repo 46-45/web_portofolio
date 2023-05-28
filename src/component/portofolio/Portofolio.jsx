@@ -2,8 +2,8 @@ import React from 'react'
 import './portofolio.css'
 import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
+import IMG3 from '../../assets/images.jpg'
+import IMG4 from '../../assets/fr.png'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
 
@@ -24,14 +24,14 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: '-',
-    github: 'https://github.com'
+    title: 'QR Generator Flutter',
+    github: 'https://github.com/46-45/QR-Generator-Flutter'
   },
   {
     id: 4,
     image: IMG4,
-    title: '-',
-    github: 'https://github.com'
+    title: 'Face Recognition use Eigenface',
+    github: 'https://github.com/46-45/FaceRecognition-use-Eigenface'
   },
   {
     id: 5,

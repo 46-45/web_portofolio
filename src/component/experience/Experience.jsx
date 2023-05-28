@@ -10,47 +10,61 @@ const Experience = () => {
 
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Top Global</h3>
+          <h3>Skill</h3>
           <div className="experience__content">
             <article className='experience__details'>
               <FaCheckCircle className='experience__details-icon'/>
               <div>
-              <h4>Global 1 Yss</h4>
+              <h4>PHP</h4>
               <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <FaCheckCircle className='experience__details-icon'/>
               <div>
-              <h4>Global 7 Lancelot</h4>
+              <h4>C</h4>
               <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <FaCheckCircle className='experience__details-icon'/>
               <div>
-              <h4>Global 4 Ling</h4>
+              <h4>Javascript</h4>
               <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <FaCheckCircle className='experience__details-icon'/>
               <div>
-              <h4>Global 10 Gusion</h4>
+              <h4>ReactJs</h4>
               <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <FaCheckCircle className='experience__details-icon'/>
               <div>
-              <h4>Global 2 Pharsa</h4>
+              <h4>Kotlin</h4>
               <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <FaCheckCircle className='experience__details-icon'/>
               <div>
-              <h4>Global 3 Natalia</h4>
+              <h4>Python</h4>
+              <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <FaCheckCircle className='experience__details-icon'/>
+              <div>
+              <h4>Laravel</h4>
+              <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <FaCheckCircle className='experience__details-icon'/>
+              <div>
+              <h4>Database</h4>
               <small className='text-light'>Experienced</small>
               </div>
             </article>
@@ -65,29 +79,29 @@ const Experience = () => {
             <article className='experience__details'>
               <FaCheckCircle className='experience__details-icon'/>
               <div>
-              <h4>IESPA Season 1 Champion</h4>
-              <small className='text-light'>Experienced</small>
+              <h4>Foundations of Cybersecurity</h4>
+              <small className='text-light'>by Google Coursera</small>
               </div>
             </article>
             <article className='experience__details'>
               <FaCheckCircle className='experience__details-icon'/>
               <div>
-              <h4>IESPA Season 2 RunnerUp</h4>
-              <small className='text-light'>Experienced</small>
+              <h4>Javascript Intermediate Certificate</h4>
+              <small className='text-light'>HackerRank</small>
               </div>
             </article>
             <article className='experience__details'>
               <FaCheckCircle className='experience__details-icon'/>
               <div>
-              <h4>Regent Cup RunnerUp</h4>
-              <small className='text-light'>Experienced</small>
+              <h4>Oracle Cloud Infrastructure 2022</h4>
+              <small className='text-light'>Certificated Foundation Associate</small>
               </div>
             </article>
             <article className='experience__details'>
               <FaCheckCircle className='experience__details-icon'/>
               <div>
-              <h4>Champion Del 20 Times in a row</h4>
-              <small className='text-light'>Experienced</small>
+              <h4>Python Basic Certificate</h4>
+              <small className='text-light'>HackerRank</small>
               </div>
             </article>
           </div>
