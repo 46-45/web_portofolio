@@ -19,7 +19,7 @@ const data = [
   {
     avatar: AVTR1,
     name: 'Risky Jeremia Rendra Simanjuntak',
-    review: 'Daniel adalah orang yang berkepribadian baik, suka menolong orang, ramah serta rendah hati.Saya sangat beruntung dapat menjadi temannya walaupun saya orangnya memiliki badan bau pesing.'
+    review: 'Daniel adalah orang yang berkepribadian baik, suka menolong orang, ramah serta rendah hati.Saya sangat beruntung dapat menjadi temannya walaupun saya orangnya ceroboh.'
   },
   {
     avatar: AVTR2,
