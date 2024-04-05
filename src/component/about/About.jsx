@@ -23,27 +23,32 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Role</h5>
-              <small>Website and Android Developer</small>
+              <small>Software Developer
+                Backend Developer
+                Frontend Developer
+              </small>
             </article>
 
             <article className='about__card'>
               <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>Everyone who needs help</small>
+              <h5>Education</h5>
+              <small>Diploma 3 
+                from Del Institute 
+                of Technology</small>
             </article>
 
             <article className='about__card'>
               <AiOutlineFolderOpen className='about__icon'/>
               <h5>Projects</h5>
-              <small>Last Project 1, Last Project 2 and Final Project</small>
+              <small>Check my Github</small>
             </article>
           </div>
 
           <p>
-          My name is Daniel Silalahi. I am a final year student majoring in informatics engineering.
-Passionate about softwaredevelopment. Has knowledge of competitive programming and loves
-algorithms, can learn new things quickly, and enjoys learningnewthings about technology. Have
-good interpersonal communication and comfortable working in a teamor individually
+            My name is Daniel Silalahi. I am a fresh graduate majoring in informatics engineering. Passionate
+            about software development. Has knowledge of competitive programming and loves algorithms,
+            can learn new things quickly, and enjoys learning new things about technology. Have good
+            interpersonal communication and comfortable working in a team or individually. 
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

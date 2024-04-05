@@ -5,67 +5,71 @@ import {FaCheckCircle} from 'react-icons/fa'
 const Experience = () => {
   return (
     <section id='experience'>
-      <h5>What Skill I Have</h5>
-      <h2>My Experience</h2>
+      <h5>What Skills I Have</h5>
+      <h2>Additional</h2>
 
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Skill</h3>
+          <h3>Skills</h3>
           <div className="experience__content">
             <article className='experience__details'>
               <FaCheckCircle className='experience__details-icon'/>
               <div>
-              <h4>PHP</h4>
-              <small className='text-light'>Experienced</small>
+              <h4>PHP/Laravel/CodeIgniter</h4>
               </div>
             </article>
             <article className='experience__details'>
               <FaCheckCircle className='experience__details-icon'/>
               <div>
-              <h4>C</h4>
-              <small className='text-light'>Experienced</small>
+              <h4>Java/Springboot</h4>
               </div>
             </article>
             <article className='experience__details'>
               <FaCheckCircle className='experience__details-icon'/>
               <div>
               <h4>Javascript</h4>
-              <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <FaCheckCircle className='experience__details-icon'/>
               <div>
-              <h4>ReactJs</h4>
-              <small className='text-light'>Experienced</small>
+              <h4>ReactJs/VueJs</h4>
               </div>
             </article>
             <article className='experience__details'>
               <FaCheckCircle className='experience__details-icon'/>
               <div>
-              <h4>Kotlin</h4>
-              <small className='text-light'>Experienced</small>
+              <h4>Kotlin, Flutter</h4>
               </div>
             </article>
             <article className='experience__details'>
               <FaCheckCircle className='experience__details-icon'/>
               <div>
               <h4>Python</h4>
-              <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <FaCheckCircle className='experience__details-icon'/>
               <div>
-              <h4>Laravel</h4>
-              <small className='text-light'>Experienced</small>
+              <h4>PostgreSql/MySql/NoSql</h4>
               </div>
             </article>
             <article className='experience__details'>
               <FaCheckCircle className='experience__details-icon'/>
               <div>
               <h4>Database</h4>
-              <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <FaCheckCircle className='experience__details-icon'/>
+              <div>
+              <h4>Git</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <FaCheckCircle className='experience__details-icon'/>
+              <div>
+              <h4>RestfulAPI</h4>
               </div>
             </article>
           </div>
@@ -74,7 +78,7 @@ const Experience = () => {
         {/* End Of Global*/}
 
         <div className="experience__backend">
-        <h3>Achievements</h3>
+        <h3>Certificate</h3>
           <div className="experience__content">
             <article className='experience__details'>
               <FaCheckCircle className='experience__details-icon'/>
@@ -102,6 +106,13 @@ const Experience = () => {
               <div>
               <h4>Python Basic Certificate</h4>
               <small className='text-light'>HackerRank</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <FaCheckCircle className='experience__details-icon'/>
+              <div>
+              <h4>Certificate MSIB</h4>
+              <small className='text-light'>By Kampus Merdeka</small>
               </div>
             </article>
           </div>

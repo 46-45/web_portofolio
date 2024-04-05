@@ -4,8 +4,8 @@ import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/images.jpg'
 import IMG4 from '../../assets/fr.png'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG5 from '../../assets/port4.jpg'
+import IMG6 from '../../assets/port5.png'
 
 
 const data = [
@@ -30,20 +30,20 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: 'Face Recognition use Eigenface',
+    title: 'Face Recognition use Eigenface (Python as BackEnd Model)',
     github: 'https://github.com/46-45/FaceRecognition-use-Eigenface'
   },
   {
     id: 5,
     image: IMG5,
-    title: '-',
-    github: 'https://github.com'
+    title: 'Face Recognition use Eigenface (Kotlin as FrontEnd)',
+    github: 'https://github.com/46-45/aplikasi-001'
   },
   {
     id: 6,
     image: IMG6,
-    title: '-',
-    github: 'https://github.com'
+    title: 'Web Portfolio',
+    github: 'https://github.com/46-45/web_portofolio'
   }
 ]
 
